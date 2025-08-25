@@ -94,15 +94,15 @@ const Signup = () => {
             <div>
               <img className="h-20" src={ElpxLogo} alt="Elpx Logo" />
             </div>
-            <h1 className="text-white text-[24px] font-bold mb-4">Welcome to Elpx</h1>
-            <h1 className="text-white text-[48px] font-bold mb-4">Let’s begin your <br /> fundraising journey!</h1>
+            <h1 className="text-white text-[24px] font-bold">Welcome to Elpx</h1>
+            <h1 className="text-white text-[48px] font-bold">Let’s begin your <br /> fundraising journey!</h1>
             <p className="text-white/90 text-lg">We’re here to guide you every step of the way.</p>
           </div>
         </div>
       </div>
 
       {/* Right side - Dynamic form content */}
-      <div className="flex-1 bg-gray-50 flex items-center justify-center p-8">
+      <div className="flex-1 bg-white flex items-center justify-center p-8">
         <div className="w-full max-w-[750px]">
           {/* Progress indicators */}
           <div className="flex items-center justify-center mb-8 space-x-4">

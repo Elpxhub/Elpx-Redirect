@@ -28,10 +28,10 @@ const Login = () => {
               <div>
                 <img className="h-20" src={ElpxLogo} alt="Elpx Logo" />
               </div>
-              <h1 className="text-white text-[24px] font-bold mb-4">
+              <h1 className="text-white text-[24px] font-bold">
                 Welcome to Elpx
               </h1>
-              <h1 className="text-white text-[48px] font-bold mb-4">
+              <h1 className="text-white text-[48px] font-bold">
                 Let’s begin your <br /> fundraising journey!
               </h1>
               <p className="text-white/90 text-lg">
@@ -42,7 +42,7 @@ const Login = () => {
         </div>
 
         {/* Right side - Dynamic form content */}
-        <div className="flex-1 bg-gray-50 flex items-center justify-center p-8">
+        <div className="flex-1 bg-white flex items-center justify-center p-8">
           <div className="w-full bg-white p-7 max-w-[750px]">
             <h2 className="text-2xl font-bold text-gray-900 mb-1">Login</h2>
             <div className="text-sm text-gray-600 mb-3">
